@@ -4,12 +4,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "build":"parcel build index.html"
+    "build": "parcel build index.html"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@parcel/watcher": "^2.5.1",
     "parcel": "^2.14.4"
   },
   "dependencies": {
